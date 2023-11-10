@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="/js/Display.js" type="text/javascript"></script>
+  <script src="/js/Calculadora.js" type="text/javascript"></script>
+  <script src="/js/index.js" type="text/javascript" defer></script>
+  <title>Calculadora</title>
+</head>
+
+<body>
+  <header>
+    <h1 class="header-h1">Universidad Técnica de Manabí</h1>
+  </header>
+
+  <section class="container">
+    <article class="article-container">
+      <img class="article-img" height="200px" src="img/logo.png" alt="imagenUTM">
+      <div class="article-text">
+        <h2 class="h2-article">CALCULADORA </h2>
+          <div class="calculadora">
+            <br>
+            <br>
+
+            <div class="display">
+              <div id="valor-anterior"></div>
+              <div id="valor-actual"></div>
+            </div>
+            <br>
+            <button onclick="display.borrar()">&larr;</button>
+            <button class="col-2" onclick="display.borrarTodo()">C</button>
+            <button class="numero">%</button>
+            <button class="operador" value="dividir">/</button>
+
+            <br>
+            <button class="numero">7</button>
+            <button class="numero">8</button>
+            <button class="numero">9</button>
+            <button class="operador" value="multiplicar">*</button>
+            <br>
+            <button class="numero">4</button>
+            <button class="numero">5</button>
+            <button class="numero">6</button>
+            <button class="operador" value="restar">-</button>
+            <br>
+            <button class="numero">1</button>
+            <button class="numero">2</button>
+            <button class="numero">3</button>
+            <button class="operador" value="sumar">+</button>
+
+            <br>
+            <button class="numero">+/-</button>
+            <button class="numero">0</button>
+            <button class="numero">.</button>
+            <button class="operador" value="igual">=</button>
+            <br>
+          </div>
+      </div>
+    </article>
+
+  </section>
+  <footer>
+    <p><b> ©Derechos reservados del autor:Fernando Chimarro 2023 </b></p>
+  </footer>
+
+</body>
+
+</html>
