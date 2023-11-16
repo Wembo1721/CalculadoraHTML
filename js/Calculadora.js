@@ -1,3 +1,4 @@
+/* creamos el metodo sumar, restar, dividir y multiplicar */
 class Calculadora {
     sumar(num1, num2) {
         return num1 + num2;
